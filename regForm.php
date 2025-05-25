@@ -1,3 +1,11 @@
+<?php
+    if(isset($_GET['error'])) {
+        if($_GET['error'] == 1) {
+          echo "<h1 class='text-center display-4 text-danger'>Email already exists</h1>" ;
+        }
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -1,4 +1,17 @@
-
+<?php
+    
+    if(isset($_GET['error'])) {
+        if($_GET['error'] == 1) {
+            echo "<h1 class='text-center display-4 text-danger'>Invalid  password</h1>" ;
+        }
+        if($_GET['error'] == 2) {
+            echo "<h1 class='text-center display-4 text-danger'>Invalid email</h1>" ;
+        }
+        if($_GET['error'] == 3) {
+            echo "<h1 class='text-center display-4 text-danger'>Please login to continue</h1>" ;
+        }
+    }
+?>
 
 <!DOCTYPE html>
 <html lang="en">

@@ -11,6 +11,6 @@
             header('location:index.php');
         }
     } else {
-        header('location:login.php');
+        header('location:loginForm.php?error=3');
     }
 ?>

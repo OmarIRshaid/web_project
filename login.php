@@ -20,11 +20,11 @@
             header("location:index.php") ;
             
         } else {
-        header("location:loginForm.php?error=1") ;
+            header("location:loginForm.php?error=1") ;
         }
         
     } else {
-        header("location:loginForm.php?error") ;
+        header("location:loginForm.php?error=2") ;
     }
 
 ?>
